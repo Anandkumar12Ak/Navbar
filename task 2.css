@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(109, 151, 106);
+    padding: 15px 40px;
+}
+
+.navbar .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: lightblue;
+    letter-spacing: 2px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: lightblue;
+}
+
+.contact-btn {
+    padding: 8px 18px;
+    background: linear-gradient(to right, deepskyblue, navy);
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    opacity: 0.8;
+}
